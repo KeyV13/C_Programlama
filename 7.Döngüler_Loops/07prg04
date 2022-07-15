@@ -1,0 +1,17 @@
+/* 07prg04.c: Sayı sistemi
+   %d : desimal     10 tabanındaki sayı
+   %o : oktal        8 tabanındaki sayı
+   %x : hexadesimal 16 tabanındaki sayı (küçük harf)
+   %X : hexadesimal 16 tabanındaki sayı (büyük harf) */
+
+#include <stdio.h>
+
+int main()
+{
+    int i;
+
+    for (i=0; i<16; i++)
+      printf("%2d  %2o  %x  %X\n", i,i,i,i);
+
+ return 0;
+}
